@@ -1,0 +1,16 @@
+/target
+
+*.iml
+*.iws
+*.war
+.classpath
+.DS_Store
+.project
+.settings
+/*.launch
+/*.tmproj
+/out/**
+stacktrace.log
+test/reports
+
+.idea/
