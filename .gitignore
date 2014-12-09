@@ -13,4 +13,7 @@
 stacktrace.log
 test/reports
 
+project/project
+project/target
+
 .idea/
