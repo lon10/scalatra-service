@@ -23,9 +23,7 @@ object ScalatraserviceBuild extends Build {
       resolvers += Classpaths.typesafeReleases,
       libraryDependencies ++= Seq(
         "org.mongodb" %% "casbah" % "2.7.2",
-        "org.json4s" %% "json4s-jackson" % "3.2.10",
         "org.scalatra" %% "scalatra" % ScalatraVersion,
-        "org.json4s" %% "json4s-mongo" % "3.2.10",
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
         "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test",
         "ch.qos.logback" % "logback-classic" % "1.1.2" % "runtime",
